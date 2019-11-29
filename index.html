@@ -8,37 +8,68 @@
   </head>
   <body>
     <div class="body">
+      <!-- Top section of the page. Divided in three horizontal segments. -->
       <div class="top">
         <div class="logo">
-          <img src="img/logo.png" alt="Logo">
+          <img src="img/logo.png" class="logo" alt="Logo">
         </div>
         <div class="top-center">
+          <div class="search-panel">
+          </div>
+          <div class="login-panel">
+          </div>
         </div>
         <div class="user-panel">
-          User panel stuff goes here.
+          <button class="top-button"><img src="img/search.png" class="some-logo" alt="Search Icon"></button>
+          <button class="top-button"><img src="img/account.png" class="some-logo" alt="Account Icon"></button>
         </div>
       </div>
+      <!-- Main section of the page Divided in 4 vertical segments. -->
       <div class="main">
         <div class="stream-info">
-          Stream info goes here.
+          <div class="value-statement">
+            <h1>The Cultist Extraordinaire</h1>
+            <h3>Providing a shelter for weary minds through his Twitch channel, CalusV invites you to join him discussing life, philosophy,
+              existence, and the absurdity of the human condition, all the while playing a variety of games.</h3>
+          </div>
+          <a class="button-link button-spot" href="https://www.twitch.tv/calusv">
+            Visit the channel here
+          </a>
         </div>
-        <div class="game-info">
-          Link to our game goes here.
-          Add in personality test to see what kind of cult you belong in?
+        <div class="game">
+          <div class="block">
+            <div class="block-image">
+              <img src="img/dark-stage.jpg" class="block-image" alt="Game Image">
+            </div>
+            <div class="block-content">
+              <h2>Obsidian Reflections</h2>
+              <p>Obsidian Reflections is a game set in the Victorian Era where you learn about yourself through the choices and the sacrifices you willingly make in the name of knowledge.</p>
+            </div>
+          </div>
+          <div class="block">
+            <div class="block-image">
+              <img src="img/cleverCultist.png" class="block-image" alt="Personality Test Image">
+            </div>
+            <div class="block-content">
+              <h4>Find Your Cultist Personality</h4>
+              <p>What kind of a cultist are you? Find out through this personality test.</p>
+            </div>
+          </div>
         </div>
         <div class="art-showcase">
+          <h3> Art showcase </h3>
           Show off artwork by our community members here.
         </div>
         <div class="random-testing">
-          Hello World!
-          <div id="app">
-            <h1>{{ product }}</h1>
-          </div>
         </div>
       </div>
+      <!-- Footer section of the page. Divided in 3 vertical segments -->
       <div class="bottom">
         <div class="some">
-          Social Media Icon links go here
+          <a href="https://www.facebook.com/CalusVGaming/"><img src="img/facebook.png" class="some-logo" alt="Facebook Link"></a>
+          <a href="https://www.instagram.com/calusvgaming/"><img src="img/instagram.png" class="some-logo" alt="Instagram Link" href=""></a>
+          <a href="https://twitter.com/CalusV"><img src="img/twitter.png" class="some-logo" alt="Twitter Link" href=""></a>
+          <a href="https://www.youtube.com/channel/UCnryCiuzAXaSKipDFJeb3Og"><img src="img/YouTube.png" class="some-logo" alt="YouTube Link" href=""></a>
         </div>
         <div class="bot-menu">
           Bot menu items go here
@@ -46,6 +77,7 @@
         <div class="copyright">
           © 2019, CalusV Content Creator Website
         </div>
+        Icons from icons8.com
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
